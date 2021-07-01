@@ -1,4 +1,4 @@
-# Vim Notes
+# Vim/Vi/Ex Notes
 
 ## Magic Wands and Shell Commands  
 
