@@ -1,1 +1,1 @@
-This repo is just a single place to keep all my notes
+This repo is just for my notes 
