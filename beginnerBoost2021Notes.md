@@ -378,6 +378,7 @@ for i in `ls -1 /home/`; do cmd="chown -R $i:$i $i"; echo "$cmd"; done
 The most reliable way to change permissions is the non octal way(It's a big debate which way to do it).  
 Permissions have a diferent meaning on a directory than they do on a file.  
 Man chmod for more information on permissions.  
+You can use 'chmod +x filename' to add executable permissions to "filename" (see bboost day 12 1.15.30)
 symbolic links by nature appear to have full permissions, they actaully take on the permissions of the file it's linking to.  
 
 On a multi user systems, the defualt permissions are to permisive, ie users can see each others home directories.  It too easy to hack across user accounts.  
